@@ -145,7 +145,18 @@
 
 ```js
   // JQuery 需要操作dom, 每一个dom都是一个jq对象
-  
+  (function(){
+    var jQuery = function(selector, context) {
+      return new jQuery.fn.init(selector, context, rootjQuery);
+    }
+    jQuery.fn = jQuery.prototype={
+      init:function(){}
+    }
+    jQuery.fn.init.prototype = jQuery.fn;
+    jQuery.extend = jQuery.fn.extend = function() {}
+    jQuery.extend({});
+    window.$ = jquery;
+  })();
 ```
 
 #### 建造者模式示例
@@ -200,10 +211,10 @@
   // 写一个数据储存对象。需求：项目中有一个全局的数据储存者，
   // 这个储存着只能有一个，不然会需要进行同步，增加复杂度。
   function store() {
-    this.store = {};
     if (store.install) {
       return store.install;
     }
+    this.store = {};
     store.install = this;
   }
   store.install = null;
