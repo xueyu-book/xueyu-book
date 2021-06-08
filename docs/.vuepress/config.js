@@ -5,7 +5,7 @@ module.exports = {
   title: "鳕鱼笔记本",
   description: '',
   head: [
-    ['link', {rel: 'icon', href: 'assets/favicon.ico'}]
+    ['link', {rel: 'shortcut icon', href: '/favicon.ico'}]
   ],
   themeConfig: {
     // logo: "/assets/img/bg.jpg",
