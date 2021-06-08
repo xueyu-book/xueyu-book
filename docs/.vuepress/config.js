@@ -1,0 +1,23 @@
+const sideBarConfig = require("./baseConfig/sidebarConfig") 
+const navConfig = require('./baseConfig/navConfig')
+
+module.exports = {
+  title: "鳕鱼笔记本",
+  description: '',
+  head: [
+    ['link', {rel: 'icon', href: 'assets/favicon.ico'}]
+  ],
+  themeConfig: {
+    // logo: "/assets/img/bg.jpg",
+    // 导航栏链接
+    nav: navConfig,
+    // sidebar: 'auto',
+    sidebar: sideBarConfig,
+    // lastUpdated: "Last Updated",
+    smoothScroll: true, // string | boolean
+  },
+  dest: 'dist',
+  plugins: [
+    // "vuepress-plugin-cat"
+  ]
+};
