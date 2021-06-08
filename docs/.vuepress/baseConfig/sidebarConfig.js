@@ -20,6 +20,10 @@ module.exports = [
       {
         title: '封装与对象',
         path: '/design-model/encapsulation-objects'
+      },
+      {
+        title: '提高复用性',
+        path: '/design-model/improve-reusability'
       }
     ]
   },
