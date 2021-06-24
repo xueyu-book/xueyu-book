@@ -5,7 +5,7 @@ lang: zh-CN
 heroText: 以终为始
 tagline: 每天进步一点点🤏
 actionText: 开启笔记本 →
-actionLink: /base-js/
+actionLink: /daily-qa/
 # features:
 # - title: 简洁至上
 #   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

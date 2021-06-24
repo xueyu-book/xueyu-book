@@ -1,11 +1,21 @@
 module.exports = [
   {
+    title: '每日一题',
+    path: '/daily-qa',
+    children: [
+      {
+        title: '事件循环',
+        path: '/daily-qa/event-loop'
+      }
+    ]
+  },
+  {
     title: 'js基础',
     path: '/base-js',
     children: [
       {
         title: '关于this',
-        path: '/base-js/this'
+        path: '/base-js/about-this'
       }
     ]
   },
