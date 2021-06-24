@@ -11,7 +11,7 @@ module.exports = {
     // logo: "/assets/img/bg.jpg",
     // 导航栏链接
     nav: navConfig,
-    // sidebar: 'auto',
+    sidebar: 'auto',
     sidebar: sideBarConfig,
     // lastUpdated: "Last Updated",
     smoothScroll: true, // string | boolean
