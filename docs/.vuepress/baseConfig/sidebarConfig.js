@@ -10,6 +10,22 @@ module.exports = [
       {
         title: 'TCP协议的三次握手过程',
         path: '/daily-qa/tcp-three-way-handshake'
+      },
+      {
+        title: '内存泄漏',
+        path: '/daily-qa/memory-leak'
+      },
+      {
+        title: 'Http2.0有哪些进步',
+        path: '/daily-qa/http2.0'
+      },
+      {
+        title: 'cdn工作原理',
+        path: '/daily-qa/how-cdn-work'
+      },
+      {
+        title: '正向代理和反向代理的区别',
+        path: '/daily-qa/forward-proxy-reverse-proxy'
       }
     ]
   },

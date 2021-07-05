@@ -1,11 +1,9 @@
 # 事件循环
 
-
 ## 定义
 
 Event Loop是 user agent(浏览器)用于协调事件，用户交互(鼠标、键盘)，脚本（JS），
 渲染（如HTML、CSS样式），网络等行为的一种机制。
-
 
 ## 任务的类型
 
@@ -14,7 +12,6 @@ Event Loop是 user agent(浏览器)用于协调事件，用户交互(鼠标、�
 微任务有：Promise、Object.observe、MutationObserver、postMessage。
 
 tips: 一个Event Loop有一个或多个任务队列，每个任务队列有一个微任务队列。
-
 
 ## Event Loop处理模型
 
